@@ -1,4 +1,5 @@
 language: scala
+
 before_script:
   - "pushd src/main/resources/assets/ && npm install && ./bin/build && popd"
 
